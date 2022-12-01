@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+#container {
+  display: flex;
+  margin-right: 10px;
+}
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #ccfb00;
+  margin-right: 10px;
+}
+#triangle:hover {
+  border-bottom: 100px solid #ff2500;
+  transform: translateY(-30px);
+}
+
+#square {
+  width: 100px;
+  height: 100px;
+  background-color: #ff2500;
+  margin-right: 10px;
+}
+#square:hover {
+  background-color: #5234ff;
+  transform: translateY(-30px);
+}
+#circle {
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #5234ff;
+}
+#circle:hover {
+  background-color: #ccfb00;
+  transform: translateY(-30px);
+}
+button {
+  margin-top: 10%;
+  margin-left: 40%;
+}
